@@ -1,0 +1,395 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+/** HEADER **/
+
+header {
+  background-color: #bba7e8;
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-search-bar {
+  height: 64px;
+  width: 966px;
+  border-color: transparent;
+  border-radius: 4px;
+  left: 292px;
+  top: 8px;
+}
+
+.promoted {
+  color: #262b52;
+  left: 5%;
+  right: 81.39%;
+  top: 2.34%;
+  bottom: 94.53%;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+.senpai-logo {
+  width: 87px;
+  height: 80px;
+  left: 1279px;
+  top: 0px;
+}
+
+/** BODY **/
+
+body {
+  background-color: #d9d9d9;
+}
+
+/** MAIN **/
+
+/** ASIDE **/
+
+aside {
+  position: absolute;
+  width: 416px;
+  height: 520px;
+  left: 72px;
+  top: 160px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.careers {
+  position: absolute;
+  width: 368px;
+  height: 24px;
+  left: 24px;
+  top: 24px;
+  color: #1d1d1d;
+}
+
+.categories {
+  position: absolute;
+  width: 368px;
+  height: 192px;
+  left: 24px;
+  top: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 4px;
+}
+
+.type-category {
+  display: flex;
+  align-content: center;
+  font-size: 16px;
+}
+
+.categories-photo {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  margin-right: 15px;
+}
+
+.see-more {
+  position: absolute;
+  width: 368px;
+  height: 16px;
+  left: 24px;
+  top: 280px;
+  text-align: center;
+  color: #5075f8;
+}
+
+.see-more a {
+  text-decoration: none;
+}
+
+.see-more hr {
+  color: grey;
+}
+
+.filters {
+  position: absolute;
+  width: 368px;
+  height: 160px;
+  left: 24px;
+  top: 340px;
+}
+
+#cbox1,
+#cbox2,
+#cbox3 {
+  width: 32px;
+  height: 32px;
+  border-radius: 40px;
+}
+
+.checkbox-item {
+  display: flex;
+  text-align: center;
+}
+
+/** CARDS **/
+
+#card1 {
+  position: absolute;
+  width: 416px;
+  height: 152px;
+  left: 512px;
+  top: 160px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.card-photo{
+position: absolute;
+left: 5.77%;
+right: 69.23%;
+top: 15.79%;
+bottom: 15.79%;
+background-image: url(../img/student.png);
+background-repeat: no-repeat;
+background-position: 50%;
+border-radius: 50%;
+background-size: 100% auto;
+}
+
+.card-star{position: absolute;
+left:26.97%;
+right:65.34%;
+top: 13.85%;
+bottom: 65.1%;
+transform: rotate(48.98deg);}
+
+.star{position: absolute;
+    left: 74.63%;
+    right: -57.96%;
+    top: 11.76%;
+    bottom: 8.99%;
+    width:26,67px;
+    height:25,36px;
+    background: #E6B62E;
+    border: 3px solid #FFFFFF;
+    transform: rotate(48.98deg);}
+
+
+.card-student{
+  position: absolute;
+  left: 36.54%;
+  right: 5.77%;
+  top: 15.79%;
+  bottom: 71.05%;
+  width: 240px;
+}
+
+.card-career {
+  position: absolute;
+  left: 36.54%;
+  right: 5.77%;
+  top: 31.58%;
+  bottom: 57.89%;
+  width: 240px;
+  color: #bba7e8;
+}
+
+.card-country {
+  position: absolute;
+  left: 36.54%;
+  right: 5.77%;
+  top: 52.63%;
+  bottom: 36.84%;
+  width: 240px;
+}
+
+.card-icons {
+  position: absolute;
+  left: 36.54%;
+  right: 5.77%;
+  top: 73.68%;
+  bottom: 15.79%;
+  width: 240px;
+}
+
+#card2 {
+  position: absolute;
+  width: 416px;
+  height: 152px;
+  left: 952px;
+  top: 160px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+#card3 {
+  position: absolute;
+  width: 416px;
+  height: 152px;
+  left: 512px;
+  top: 336px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+#card4 {
+  position: absolute;
+  width: 416px;
+  height: 152px;
+  left: 952px;
+  top: 336px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+#card5 {
+  position: absolute;
+  width: 416px;
+  height: 152px;
+  left: 512px;
+  top: 512px;
+  background-color: #ffffff;
+}
+
+#card6 {
+  position: absolute;
+  width: 416px;
+  height: 152px;
+  left: 952px;
+  top: 512px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+#card7 {
+  position: absolute;
+  width: 416px;
+  height: 152px;
+  left: 512px;
+  top: 688px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+#card8 {
+  position: absolute;
+  width: 416px;
+  height: 152px;
+  left: 952px;
+  top: 688px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+/** SCROLL NUMBER BAR **/
+
+.scroll-number-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 1px;
+  position: absolute;
+  width: 856px;
+  height: 32px;
+  left: calc(50% - 856px / 2);
+  top: calc(50% - 32px / 2 + 392px);
+}
+
+#scroll-left {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 329.5px;
+  top: 0px;
+  background: #ffffff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#scroll-1 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 362.5px;
+  top: 0px;
+  background: #ffffff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#scroll-2 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 395.5px;
+    top: 0px;
+    background: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  #scroll-3 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 428.5px;
+    top: 0px;
+    background: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  #scroll-4 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 461.5px;
+    top: 0px;
+    background: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  #scroll-right {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 494.5px;
+    top: 0px;
+    background: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
